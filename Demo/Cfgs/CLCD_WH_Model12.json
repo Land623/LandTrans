@@ -1,0 +1,23 @@
+{
+    "region_size": 64,
+    "seq_len": 10,
+    "label_len": 10,
+    "pred_len": 10,
+    "spatial_patch_size": 4,
+    "temporal_patch_size": 2,
+    "slide_interval": 10,
+    "model_type": "M12",
+    "embed_dim": 32,
+    "num_heads": 2,
+    "learning_rate": 0.0002,
+    "num_encoder_layers": 6,
+    "num_decoder_layers": 6,
+    "dropout": 0.1,
+    "dim_feedforward": 128,
+    "epochs": 300,
+    "patience": 5,
+    "batch_size": 32,
+    "lucc_data_path": "./Demo/Data/CLCD_WH",
+    "mask_area": "",
+    "output_path": "./Demo/Output/CLCD_WH_Model12"
+}

@@ -1,0 +1,23 @@
+{
+    "region_size": 64,
+    "seq_len": 3,
+    "label_len": 3,
+    "pred_len": 3,
+    "spatial_patch_size": 4,
+    "temporal_patch_size": 2,
+    "slide_interval": 3,
+    "model_type": "M22",
+    "embed_dim": 64,
+    "num_heads": 4,
+    "learning_rate": 0.0008,
+    "num_encoder_layers": 6,
+    "num_decoder_layers": 6,
+    "dropout": 0.1,
+    "dim_feedforward": 256,
+    "epochs": 300,
+    "patience": 5,
+    "batch_size": 32,
+    "lucc_data_path": "./Demo/Data/NCLD_CLT",
+    "mask_area": "",
+    "output_path": "./Demo/Output/NCLD_CLT_Model22"
+}

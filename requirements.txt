@@ -1,0 +1,10 @@
+pandas
+matplotlib
+scikit-learn
+tqdm 
+torch>=2.1.0+cu121
+torchvision>=0.14.0+cu121
+torchaudio>=2.1.0+cu121
+rasterio
+geopandas 
+gdal >=3.6.0
