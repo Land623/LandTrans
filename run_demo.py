@@ -210,6 +210,10 @@ if __name__ == '__main__':
     np.random.seed(fix_seed)   
     repeat_times=1
 
+    output_path = './Demo/Output'
+    if not os.path.exists(output_path):
+        os.makedirs(output_path)
+
     config_files=['./Demo/Cfgs/CLCD_WH_Model12.json',
                   './Demo/Cfgs/NCLD_CLT_Model11.json']    
  
